@@ -1,0 +1,22 @@
+#!/bin/bash
+
+hld=$PWD
+rm -rf /tmp/install-dep
+mkdir /tmp/install-dep
+cp -r ./flex-2.5.35.tar.gz /tmp/install-dep
+cp -r ./bison-2.4.1.tar.gz /tmp/install-dep
+cd /tmp/install-dep
+tar -zxvf flex-2.5.35.tar.gz
+tar -zxvf bison-2.4.1.tar.gz
+cd flex-2.5.35
+./configure
+make
+make install
+cd ..
+cd bison-2.4.1
+./configure
+make
+make install
+cd ..
+cd $hld
+rm -rf /tmp/install-dep
