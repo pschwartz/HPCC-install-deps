@@ -2,7 +2,11 @@ This is a script to install all build reqs for the HPCC-Platform.
 
 Run it with the following:
 
-./install-deps [centos|ubuntu] <version>
+CHECK:
+sudo ./check-deps [centos|ubuntu] <version
+
+INSTALL:
+sudo ./install-deps [centos|ubuntu] <version>
 
 
 version files and additional source provided currently for the 
