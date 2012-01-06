@@ -6,8 +6,8 @@
 cfg.parser "deps.conf"
 unset IFS
 
-os=${1:-centos}
-ver=${2:-5.5}
+os=${1:-ubuntu}
+ver=${2:-11.10}
 dev=${3:-}
 
 deps_line=${os}_$ver
