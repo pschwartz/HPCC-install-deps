@@ -12,10 +12,7 @@ openssh-server
 openssh-client
 flex
 bison
-binutils
-binutils-devel
 binutils-dev
-xalan-devel
 libxalan110-dev
 libxerces-c-dev
 libxalan110-dev
