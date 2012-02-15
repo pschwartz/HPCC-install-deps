@@ -9,13 +9,7 @@ os=${1:-centos}
 ver=${2:-5.5}
 dev=${3:-}
 
-if [ "$dev" == "" ];
-then
-	deps_line=${os}_$ver
-else
-	deps_line=${os}_${ver}_dev
-fi
-
+deps_line=${os}_$ver
 cfg.section.${deps_line}
 
 if [ "$os" == "centos" ];
