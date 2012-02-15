@@ -17,7 +17,6 @@ libxalan110-dev
 libxerces-c-dev
 libxalan110-dev
 zlib1g-dev
-openssl-dev
 libssl-dev
 libmysqlclient-dev
 libboost-regex-dev
