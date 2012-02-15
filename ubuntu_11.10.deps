@@ -22,5 +22,7 @@ openssl-dev
 openssl-devel
 libssl-dev
 libmysqlclient-dev
+libboost-regex-dev
+libldap2-dev
 cmake
 make
