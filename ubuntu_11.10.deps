@@ -16,10 +16,8 @@ binutils-dev
 libxalan110-dev
 libxerces-c-dev
 libxalan110-dev
-zlib-dev
-lib32z1-dev
+zlib1g-dev
 openssl-dev
-openssl-devel
 libssl-dev
 libmysqlclient-dev
 libboost-regex-dev
