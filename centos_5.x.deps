@@ -11,8 +11,8 @@ xalan-c
 xalan-c-devel
 xerces-c
 xerces-c-devel
-boost
-boost-devel
+boost141
+boost141-devel
 gcc-c++
 make
 rpm-build
