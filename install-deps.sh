@@ -21,6 +21,11 @@ else
         cmd="apt-get install -y"
 fi
 
+if p "$pre_file" != "" ];
+then
+	./$pre_file
+fi
+
 for i in `cat $file`;
 do
         $cmd $i
@@ -30,3 +35,5 @@ if [ "$add_file" != "" ];
 then
 	./$add_file
 fi
+
+./cmake.deps

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+yum localinstall epel-release-5-4.noarch.rpm
