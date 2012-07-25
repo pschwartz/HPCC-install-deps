@@ -21,7 +21,7 @@ else
         cmd="apt-get install -y"
 fi
 
-if p "$pre_file" != "" ];
+if [ "$pre_file" != "" ];
 then
 	./$pre_file
 fi
