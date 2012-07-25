@@ -1,5 +1,5 @@
-libicu42
-libboost-regex1.40.0
+libicu48
+libboost-regex1.46.1
 libxalan110
 libxerces-c28
 openssl
@@ -18,8 +18,14 @@ libxalan110-dev
 zlib1g-dev
 libssl-dev
 libmysqlclient-dev
-libboost-regex1.40-dev
+libboost-regex-dev
 libldap2-dev
 make
-libarchive1
+libarchive12
 libarchive-dev
+libxslt1.1
+libxml2
+libxslt1-dev
+libxml2-dev
+xsltproc
+fop

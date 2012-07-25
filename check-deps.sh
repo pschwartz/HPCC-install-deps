@@ -15,11 +15,14 @@ cfg.section.${deps_line}
 if [ "$os" == "centos" ];
 then
 	cmd="rpm -qa"
+elif [ "$os" == "opensuse" ];
+then
+	cmd="rpm -qa"
 else
 	cmd="dpkg --list"
 fi
 
-for i in `cat $file`;
+for i in `cat deps/$file`;
 do
 	$cmd | grep $i > /dev/null
 	if [ $? != 0 ];

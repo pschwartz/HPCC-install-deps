@@ -24,19 +24,19 @@ else
         cmd="apt-get install -y"
 fi
 
-if [ "$pre_file" != "" ];
+if [ "deps/$pre_file" != "" ];
 then
-	./$pre_file
+	./deps/$pre_file
 fi
 
-for i in `cat $file`;
+for i in `cat deps/$file`;
 do
         $cmd $i
 done
 
-if [ "$add_file" != "" ];
+if [ "deps/$add_file" != "" ];
 then
-	./$add_file
+	./deps/$add_file
 fi
 
-./cmake.deps
+./deps/cmake.deps
