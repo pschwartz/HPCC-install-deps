@@ -16,3 +16,9 @@ boost141-devel
 gcc-c++
 make
 rpm-build
+libarchive
+libarchive-devel
+libxslt
+libxslt-devel
+libxml2
+libxml2-devel
