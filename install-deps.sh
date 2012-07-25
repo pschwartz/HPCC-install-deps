@@ -17,6 +17,9 @@ cfg.section.${deps_line}
 if [ "$os" == "centos" ];
 then
         cmd="yum install -y -q"
+elif [ "$os" == "opensuse" ];
+then
+	cmd="zypper install -y"
 else
         cmd="apt-get install -y"
 fi
