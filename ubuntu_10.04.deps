@@ -1,3 +1,4 @@
+git-core
 libicu42
 libboost-regex1.40.0
 libxalan110
@@ -9,4 +10,17 @@ libldap-2.4-2
 zlib1g
 openssh-server
 openssh-client
-expect
+flex
+bison
+binutils-dev
+libxalan110-dev
+libxerces-c-dev
+libxalan110-dev
+zlib1g-dev
+libssl-dev
+libmysqlclient-dev
+libboost-regex1.40-dev
+libldap2-dev
+make
+libarchive1
+libarchive-dev
