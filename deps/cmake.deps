@@ -6,9 +6,9 @@ cmake=/tmp/cmake
 mkdir $cmake
 cd $cmake
 
-wget http://www.cmake.org/files/v2.8/cmake-2.8.8.tar.gz
-tar -zxvf cmake-2.8.8.tar.gz
-cd cmake-2.8.8
+wget http://www.cmake.org/files/v2.8/cmake-2.8.11.1.tar.gz
+tar -zxvf cmake-2.8.11.1.tar.gz
+cd cmake-2.8.11.1
 ./bootstrap
 make
 make install
