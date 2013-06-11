@@ -11,8 +11,8 @@ libxslt
 libxslt-devel
 libxml2
 libxml2-devel
-boost141
-boost141-devel
+boost
+boost-devel
 gcc-c++
 libarchive
 bison
