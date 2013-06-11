@@ -15,6 +15,7 @@ boost
 boost-devel
 gcc-c++
 libarchive
+libarchive-devel
 bison
 flex
 make
