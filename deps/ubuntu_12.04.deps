@@ -1,5 +1,4 @@
 libicu48
-libboost-regex1.46.1
 libxalan110
 libxerces-c28
 openssl
@@ -18,6 +17,7 @@ libxalan110-dev
 zlib1g-dev
 libssl-dev
 libmysqlclient-dev
+libboost-dev
 libboost-regex-dev
 libldap2-dev
 make
@@ -29,3 +29,11 @@ libxslt1-dev
 libxml2-dev
 xsltproc
 fop
+libapr1-dev
+libaprutil1-dev
+libv8-dev
+libv8-dev
+r-base
+r-cran-rcpp
+python-dev
+default-jdk
