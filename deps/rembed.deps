@@ -1,0 +1,14 @@
+#!/bin/bash
+
+hld=$PWD
+rembed=/tmp/rembed
+
+mkdir $rembed
+cd $rembed
+
+wget http://cran.r-project.org/src/contrib/RInside_0.2.10.tar.gz
+R CMD INSTALL RInside_0.2.10.tar.gz
+
+cd $hld
+rm -rf $rembed
+

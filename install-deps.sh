@@ -40,3 +40,4 @@ then
 fi
 
 deps/cmake.deps
+deps/rembed.deps
