@@ -2,9 +2,6 @@ This is a script to install all build reqs for the HPCC-Platform.
 
 Run it with the following:
 
-CHECK:
-sudo ./check-deps [centos|ubuntu] <version
-
 INSTALL:
 sudo ./install-deps [centos|ubuntu] <version>
 
@@ -12,8 +9,7 @@ sudo ./install-deps [centos|ubuntu] <version>
 version files and additional source provided currently for the 
 following distros:
 
-centos 5.5
-ubuntu 11.10
+centos 5.x, 6.x
+ubuntu 10.04, 12.04, 12.10, 13.04
 
 
-(For centos, you must first install the epel repo.)
