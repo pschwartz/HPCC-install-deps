@@ -2,6 +2,7 @@
 
 hld=$PWD
 cmake=/tmp/cmake
+CPU=`cat /proc/cpuinfo | grep processor | wc -l`
 
 mkdir $cmake
 cd $cmake
@@ -9,8 +10,8 @@ cd $cmake
 wget http://www.cmake.org/files/v2.8/cmake-2.8.11.1.tar.gz
 tar -zxvf cmake-2.8.11.1.tar.gz
 cd cmake-2.8.11.1
-./bootstrap
-make
+./bootstrap --parallel=$CPU
+make -j $CPU
 make install
 
 cd $hld
