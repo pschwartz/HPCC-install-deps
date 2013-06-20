@@ -29,10 +29,13 @@ then
 	deps/$pre_file
 fi
 
-for i in `cat deps/$file`;
-do
-        $cmd $i
-done
+DEPS=`cat deps/$file`;
+if [ "$java_deps" != "" ];
+then
+        DEPS+=" `cat deps/$java_deps`";
+fi
+
+$cmd $DEPS
 
 if [ "$add_file" != "" ];
 then
@@ -45,3 +48,4 @@ if [ "$r_file" != "" ];
 then
 	deps/$r_file
 fi
+
