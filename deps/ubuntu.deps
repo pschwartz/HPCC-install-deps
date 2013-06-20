@@ -4,6 +4,7 @@ flex
 bison
 binutils-dev
 libxerces-c-dev
+libxerces-c2-dev
 libxalan110-dev
 zlib1g-dev
 libssl-dev
