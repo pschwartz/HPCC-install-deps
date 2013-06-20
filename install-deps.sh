@@ -40,4 +40,8 @@ then
 fi
 
 deps/cmake.deps
-deps/rembed.deps
+
+if [ "$r_file" != "" ];
+then
+	deps/$r_file
+fi

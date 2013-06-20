@@ -1,17 +1,8 @@
-libicu48
-libxalan110
-libxerces-c28
-openssl
-binutils
+libicu-dev
 g++
-libldap-2.4-2
-zlib1g
-openssh-server
-openssh-client
 flex
 bison
 binutils-dev
-libxalan110-dev
 libxerces-c-dev
 libxalan110-dev
 zlib1g-dev
@@ -21,7 +12,6 @@ libboost-dev
 libboost-regex-dev
 libldap2-dev
 make
-libarchive12
 libarchive-dev
 libxslt1.1
 libxml2
